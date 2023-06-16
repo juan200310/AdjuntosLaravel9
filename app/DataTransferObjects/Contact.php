@@ -27,6 +27,7 @@ final class Contact{
         );
     }
 
+    /* Adding comments to fromRequest function, that returns an self instance */
     public static function fromRequest(): self
     {
         $data = request()->validate([

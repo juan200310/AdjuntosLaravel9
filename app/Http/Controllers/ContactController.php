@@ -8,6 +8,7 @@ use App\Models\User;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\RedirectResponse;
 
+/* Adding test comments to COntactController class */
 class ContactController extends Controller
 {
     public function index(): Renderable{

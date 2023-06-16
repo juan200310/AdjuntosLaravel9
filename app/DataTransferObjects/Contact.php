@@ -4,6 +4,7 @@ namespace App\DataTransferObjects;
 
 use Illuminate\Http\UploadedFile;
 
+/* Adding final class comments */
 final class Contact{
 
     private function __construct(

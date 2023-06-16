@@ -15,6 +15,7 @@ final class Contact{
         public readonly UploadedFile $file,
     ){}
 
+    /* Adding comments to fromArray function */
     public static function fromArray(array $data): self
     {
         return new self(
